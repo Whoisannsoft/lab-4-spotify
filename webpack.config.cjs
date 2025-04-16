@@ -12,7 +12,7 @@ module.exports = {
     },
     devServer: {
         static: path.resolve(__dirname, 'dist'),
-        port: 444,
+        port: 4444
     },
     devtool: 'inline-source-map',
     plugins: [
