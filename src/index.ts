@@ -1,6 +1,6 @@
 import {Card} from './components/cards/cards';
-import { requestToAPI } from './requestToApi';
-import { loadMore } from './requestToApi';
+import { requestToAPI } from './requestToAPI';
+import { loadMore } from './requestToAPI';
 
 customElements.define('song-card', Card);
 
